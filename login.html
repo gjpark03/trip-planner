@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="shared.css">
+    <title>303TripPlanner | Login</title>
+
+    <style>
+        h1 {
+            color: #c1666b;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin: 0;
+            
+        }
+        #signup-container {
+            background-color: white;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        input[type="text"] {
+            width: 100%;
+        }
+
+        .btn-primary {
+            width: 100%;
+            background-color:#083058;
+        }
+    </style>
+</head>
+<body>
+    <h1>Signup</h1>
+    <div id="signup-container">
+        <form id="signup-form" action="">
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="text" name="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="text" name="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <input type="text" name="confirm-password" placeholder="Confirm Password">
+            </div>
+            <button type="submit" class="btn btn-primary">
+                Sign Up
+            </button>
+        </form>
+    </div>
+</body>
+</html>
