@@ -1,1 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+h1 {
+    font-weight: bold;
+    font-size: 3em;
+    color: #30321C;
+}
+
+h2 {
+    font-weight: bold;
+    color: #30321C;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Space Grotesk', sans-serif; 
+    background-color: #E7D8C3;   
+    margin-top: 50px;
+}
+
+.btn-primary {
+    width: 100%;
+    border: none;
+}
+
+.btn-primary:hover {
+    opacity: 0.5;
+}
+
+#signup-btn {
+    background-color:#083058;
+    height: 42px;
+}
+
+#login-btn {
+    margin-bottom: 10px;
+    background-color: #63b4d1;
+    height: 42px;
+}
+
+#web-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+/* Navbar */
+#nav {
+    width: 980px;
+    margin: auto;
+}
+#nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+#nav li {
+    background-color: #083058;
+    width: 250px;
+    line-height: 50px;
+    text-align: center;
+}
+#nav li:hover {
+    background-color: #63b4d1;
+}
+#nav a {
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+}
+#navbar {
+    background-color: #083058;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+
+@media(max-width: 991px) {
+    #nav {
+        width: auto;
+        border: none;
+    }
+
+}
+@media(max-width: 767px) {
+    #nav ul {
+        flex-direction: column;
+    }
+    #nav li {
+        width: auto;
+    }
+}
+/* Navbar end*/
