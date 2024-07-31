@@ -9,6 +9,7 @@
 - **Booking Integration**: Direct links to book flights.
 - **Mobile Responsive Design**: Access your travel plans on any device.
 - **Export Options**: Download itineraries in PDF or Excel formats.
+- **User sign up and log in**: Users can create an account to save their edits
 
 ## Technology Stack
 
